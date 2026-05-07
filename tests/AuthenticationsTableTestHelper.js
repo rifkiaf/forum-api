@@ -13,7 +13,7 @@ const AuthenticationsTableTestHelper = {
 
   async findToken(token) {
     const query = {
-      text: 'SELECT token FROM authentications WHERE token = $1',
+      text: 'SELECT token_salah FROM authentications WHERE token = $1',
       values: [token],
     };
 
